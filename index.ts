@@ -8,4 +8,6 @@ import { Vecteur2D_C, Vecteur2D } from './src/Vecteur2D';
  * Vérifiez que V1.ajouter(V2) 
  *    renvoie bien un Vecteur2D de coordonnée <12, 10>
  */
-const V1 : new Vecteur2D_C(3,2);
+const V1 : Vecteur2D_C = new Vecteur2D_C(3,2);
+const V2 : Vecteur2D_C = new Vecteur2D_C(9,8);
+V1.ajouter(V2);
